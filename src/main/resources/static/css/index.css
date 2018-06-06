@@ -1,0 +1,118 @@
+
+p,
+h1,
+h2,
+h3,
+span,
+ul,
+li {
+  margin: 0;
+}
+*{
+    margin:0;
+    padding:0;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  background: #eee;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.box{
+    background: url(../image/background.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.message{
+    width: 100%;
+    height: 1.1rem;
+    background: #1b1b1f;
+    
+}
+.message p{
+    color:#fff;
+    line-height: 1.4rem;
+    margin:0 auto;
+    font-size: .28rem;
+    text-align: center;
+    font-family: monospace;
+}
+.rectangle{
+   
+    width: 6.5rem;
+    display: block;
+    margin: 0 auto;
+    height: 3.2rem;
+    margin-top: 0.32rem;
+    border-radius: 6px;
+    background: #fff;
+    font-size: .29rem;
+    border:1px solid #e4e4e4;
+    padding: .24rem  .24rem .24rem  .24rem;
+}
+
+.rectangle-22{
+    width: 6.5rem;
+    display: block;
+    margin: 0 auto;
+    height: .9rem;
+    line-height: .9rem;
+    margin-top: 0.32rem;
+    border-radius: 6px;
+    background: #fff;
+    border:1px solid #e4e4e4;
+}
+.content{
+    position: relative;
+}
+.absolute{
+    font-size: 15px;
+    color:#bbbbbb;
+    position: absolute;
+    right: 1rem;
+    bottom:.5rem;
+}
+.rectangle-22 span{
+    padding-left: .32rem;
+    font-size: .34rem;
+    color:#464040;
+    font-family: monospace;
+}
+.iphone{
+    height: .75rem;
+    line-height: .9rem;
+    padding-left: .2rem;
+    border:0;
+    color:#bbbbbb;
+    font-size: .3rem;
+    font-family: monospace;
+}
+.submit{
+    width: 6.5rem;
+    height: .9rem;
+    background: #e13278;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 14px;
+    margin-top:.65rem;
+    border-radius: 100px;
+    line-height: .9rem;
+    text-align: center;
+
+}
