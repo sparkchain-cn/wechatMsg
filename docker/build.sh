@@ -1,20 +1,16 @@
 #!/usr/bin/env bash
-#http://121.43.182.221:8090/repository/maven-releases/com/sparkchain/spc-chain-core/1.0/spc-chain-core-1.0.jar
 #第一次运行
 #ssh-keygen
 #ssh-copy-id -i ~/.ssh/id_rsa.pub root@10.1.12.200
-#/c/Users/think/.ssh/id_rsa
-#ssh-copy-id -i /c/Users/think/.ssh/id_rsa  root@118.31.65.25
+#ssh-copy-id -i /c/Users/think/.ssh/id_rsa  root@10.1.12.200
 
+#ssh-copy-id -i /c/Users/think/.ssh/id_rsa  root@10.1.12.200
 
-#ssh-copy-id -i /c/Users/think/.ssh/id_rsa  root@118.31.38.181
-#ssh-copy-id -i /c/Users/think/.ssh/id_rsa  sparkchain@118.31.38.181
-
-adminIp=118.31.38.181
+adminIp=110.1.12.200
 #jarName=spc-chain-basev3-boot-1.0
 #在服务器建立这个文件夹，不能使用jarName,如果同一个jar，多次（多端口）部署就会有问题
 serverFolder=spc-post-message-ms01-8085-test
-folder=docker-ms01-8085-test
+folder=docker
 
 startupFileName=startup.sh
 execFileName=docker.sh
