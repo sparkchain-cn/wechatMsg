@@ -15,7 +15,7 @@
    ![图](./doc/02.png)
 - 项目启动页
 微信登录后进入liuyan.sparkchain.cn/init 获取用户code，再调用回调接口liuyan.sparkchain.cn，获取openId,根据openId创建用户钱包（已有钱包则直接跳到钱包页），创建钱包完毕后进入留言页。
-  ![图](./doc/03.png)
+  ![图](./doc/03.jpg)
 - 提交留言
 提交留言接口liuyan.sparkchain.cn/message/send。用户钱包会向链上提交文本留言（留言需要GAS费），企业钱包会向该用户钱包发一个红包。
 - 这些操作完成后，跳到余额页
